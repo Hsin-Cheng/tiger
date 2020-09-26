@@ -34,7 +34,11 @@ public class Autoboxing1 {
   
   public static void main(String[] args) {
 	  Integer i1 = 1; //boxing
+<<<<<<< HEAD
 	  String  i2 = i1;    //unboxing
+=======
+	  long i2 = i1;    //unboxing
+>>>>>>> tiger
 		
 	  double sum1 = i1 + i2;
 	  Integer sum2 = i1 + i2;
