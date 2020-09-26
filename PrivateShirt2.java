@@ -2,21 +2,21 @@ public class PrivateShirt2 {
 
   private int shirtID = 0;
   private String description = "-description required-";
-  //¡´ ÃC¦â½X R=¬õ¦â, B=ÂÅ¦â, G=ºñ¦â, U=¥¼©w
+  //ï¿½ï¿½ ï¿½Cï¿½ï¿½X R=ï¿½ï¿½ï¿½ï¿½, B=ï¿½Å¦ï¿½, G=ï¿½ï¿½ï¿½, U=ï¿½ï¿½ï¿½w
   private ColorCode colorCode = ColorCode.U;
   private double price = 0.0;
   private int quantityInStock = 0;
-  
-  //¡´getXxx
+  private int iamtestinggitNum=10;
+  //ï¿½ï¿½getXxx
   public ColorCode getColorCode() {
     return colorCode;
   }
   
-  //¡´setXxx  
+  //ï¿½ï¿½setXxx  
   public void setColorCode(ColorCode newCode) {
       colorCode = newCode;
-      //¡°¤£¦A»Ý­n¦¹¿ù»~³B²z¤F, ¤w¥Ñ enum ¨M©w½d³ò¤F
+      //ï¿½ï¿½ï¿½ï¿½ï¿½Aï¿½Ý­nï¿½ï¿½ï¿½ï¿½ï¿½~ï¿½Bï¿½zï¿½F, ï¿½wï¿½ï¿½ enum ï¿½Mï¿½wï¿½dï¿½ï¿½F
   }
-  //¡° ¨ä¥¦¹ï shirtID, description,
-  //¡° price, and quantityInStock ªº get set¤èªk, ½Ð¥é·Ó¤W­zªº§@ªk
+  //ï¿½ï¿½ ï¿½ä¥¦ï¿½ï¿½ shirtID, description,
+  //ï¿½ï¿½ price, and quantityInStock ï¿½ï¿½ get setï¿½ï¿½k, ï¿½Ð¥ï¿½Ó¤Wï¿½zï¿½ï¿½ï¿½@ï¿½k
 }
