@@ -1,9 +1,9 @@
 /*
- * Base64¬O¤@ºØ¯à±N¥ô·NBinary¸ê®Æ¥Î64ºØ¦r¤¸²Õ¦X¦¨¦r¦êªº¤èªk¡A¦Ó³o­ÓBinary¸ê®Æ©M¦r¦ê¸ê®Æ©¼¦¹¤§¶¡¬O¥i¥H¤¬¬ÛÂà´«ªº¡A¤Q¤À¤è«K¡C
- * ¦b¹ê»ÚÀ³¥Î¤W¡ABase64°£¤F¯à±NBinary¸ê®Æ¥iµø¤Æ¤§¥~¡A¤]±`¥Î¨Óªí¥Ü¦r¦ê¥[±K¹L«áªº¤º®e
+ * Base64ï¿½Oï¿½@ï¿½Ø¯ï¿½Nï¿½ï¿½NBinaryï¿½ï¿½Æ¥ï¿½64ï¿½Ø¦rï¿½ï¿½ï¿½Õ¦Xï¿½ï¿½ï¿½rï¿½êªºï¿½ï¿½kï¿½Aï¿½Ó³oï¿½ï¿½Binaryï¿½ï¿½Æ©Mï¿½rï¿½ï¿½ï¿½Æ©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½iï¿½Hï¿½ï¿½ï¿½ï¿½ï¿½à´«ï¿½ï¿½ï¿½Aï¿½Qï¿½ï¿½ï¿½ï¿½Kï¿½C
+ * ï¿½bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¤Wï¿½ABase64ï¿½ï¿½ï¿½Fï¿½ï¿½NBinaryï¿½ï¿½Æ¥iï¿½ï¿½ï¿½Æ¤ï¿½ï¿½~ï¿½Aï¿½]ï¿½`ï¿½Î¨Óªï¿½Ü¦rï¿½ï¿½[ï¿½Kï¿½Lï¿½áªºï¿½ï¿½ï¿½e
  * 
- * ¦­´Á¦bJava¤W°µBase64ªº½s½X»P¸Ñ½X¡A·|¨Ï¥Î¨ìJDK¸Ìsun.misc®M¥ó¤UªºBASE64Encoder©MBASE64Decoder³o¨â­ÓÃþ§O
- * ³o­Ósun.misc®M¥ó©Ò´£¨ÑªºBase64¥\¯à¡A½s½X©M¸Ñ½Xªº®Ä²v¨Ã¤£¤Ó¦n¡A¦Ó¥B¦b¥H«áªºJavaª©¥»¥i¯à´N¤£³Q¤ä´©¤F¡A¤£«ØÄ³¨Ï¥Î¡C
+ * ï¿½ï¿½ï¿½ï¿½ï¿½bJavaï¿½Wï¿½ï¿½Base64ï¿½ï¿½ï¿½sï¿½Xï¿½Pï¿½Ñ½Xï¿½Aï¿½|ï¿½Ï¥Î¨ï¿½JDKï¿½ï¿½sun.miscï¿½Mï¿½ï¿½Uï¿½ï¿½BASE64Encoderï¿½MBASE64Decoderï¿½oï¿½ï¿½ï¿½ï¿½ï¿½ï¿½O
+ * ï¿½oï¿½ï¿½sun.miscï¿½Mï¿½ï¿½Ò´ï¿½ï¿½Ñªï¿½Base64ï¿½\ï¿½ï¿½Aï¿½sï¿½Xï¿½Mï¿½Ñ½Xï¿½ï¿½ï¿½Ä²vï¿½Ã¤ï¿½ï¿½Ó¦nï¿½Aï¿½Ó¥Bï¿½bï¿½Hï¿½áªºJavaï¿½ï¿½ï¿½ï¿½ï¿½iï¿½ï¿½Nï¿½ï¿½ï¿½Qï¿½ä´©ï¿½Fï¿½Aï¿½ï¿½ï¿½ï¿½Ä³ï¿½Ï¥Î¡C
 */
 
 import java.io.*;
@@ -14,17 +14,17 @@ public class BASE64_Encoder$Decoder_BeforeJava8 {
 
 	public static void main(String[] args) throws IOException {
 		
-		//¨Ó·½ (¹Ï¤ùtomcat.gif)
+		//ï¿½Ó·ï¿½ (ï¿½Ï¤ï¿½tomcat.gif)
 		InputStream in = new FileInputStream("images/tomcat.gif");
 		byte[] buffer = new byte[in.available()];
 		in.read(buffer);
 		in.close();
 
-    //Base64½s½X
+    //Base64ï¿½sï¿½X
 		BASE64Encoder encoder = new BASE64Encoder();
 		String encodedText = encoder.encodeBuffer(buffer);
 		System.out.println(encodedText);
-
+//new version testing git 
 	}
 
 }
