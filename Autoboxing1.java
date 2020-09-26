@@ -1,33 +1,33 @@
 /*
 
-»¡©ú:
-  int ¥]¸Ë¦¨ Integer ºÙ¤§¬° Autoboxing¡A¤Ï¤§«h¬O Auto-unboxing¡C
+ï¿½ï¿½ï¿½ï¿½:
+  int ï¿½]ï¿½Ë¦ï¿½ Integer ï¿½Ù¤ï¿½ï¿½ï¿½ Autoboxingï¿½Aï¿½Ï¤ï¿½ï¿½hï¿½O Auto-unboxingï¿½C
   
-  ¦b Java ¤¤ªº¤KºØ°ò¥»«¬§O¡A¤À§O¬O byte, short, int, long, 
-  float, double, char ©M boolean¡C
-  ²z½×¤W¨Ó»¡¡A¯u¥¿ªºª«¥ó¾É¦V¤¤ªº«¬§OÀ³¸Ó³£¥²¶·¬OÃþ§O©w¸q¡A
-  ¹³¬O Short, Integer µ¥µ¥Ãþ§O¡C
-  ¤£¹L¬°¤F§Ú­Ì¨Ï¥Î¤Wªº¤è«K¡AJava ´£¨Ñ¤F°ò¥»«¬§O¡C
-  ¦P®É¦s¦b³o¨âºØ«¬§O±`±`·|³y¦¨§Ú­Ì¦b³]­p¤W­n¥[¤W³\¦hÃB¥~ªºµ{¦¡½X¡A
-  ¨Ò¦p¦b°µ¼Æ¦r¹Bºâ®É¡A¨Ï¥Î int ©Î double «¬§O¨Ó³B²z¡A
-  ¦ý¬O­n±N¼Æ¦r¦s¤J®e¾¹®É¡A¥²¶·­n±N¨äÂà´«¦¨ Integer ©Î Double «¬§O¡A
-  ¤~¯à¨Ï¥Î add(new Integer(i))¡A
-  ¦b¨Ï¥Î®e¾¹©Î¦h«¬³B²z®É±`±`­n¦h¤@¹DÂà«¬¤âÄò¡C 
-  Java 1.5 ¤¤¡A¤w¸g¼W¥[¤F³o¤è­±ªº³B²z¡A
-  ºÙ¤§¬° Autoboxing ©M Auto-unboxing¡A
-  ½sÄ¶¾¹·|¦Û°ÊÀ°§Ú­Ì¦b int ©M Integer ¤§¤¤Âà´«¡C
+  ï¿½b Java ï¿½ï¿½ï¿½ï¿½ï¿½Kï¿½Ø°ò¥»«ï¿½ï¿½Oï¿½Aï¿½ï¿½ï¿½Oï¿½O byte, short, int, long, 
+  float, double, char ï¿½M booleanï¿½C
+  ï¿½zï¿½×¤Wï¿½Ó»ï¿½ï¿½Aï¿½uï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¦Vï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½Ó³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½Oï¿½wï¿½qï¿½A
+  ï¿½ï¿½ï¿½O Short, Integer ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½C
+  ï¿½ï¿½ï¿½Lï¿½ï¿½ï¿½Fï¿½Ú­Ì¨Ï¥Î¤Wï¿½ï¿½ï¿½ï¿½Kï¿½AJava ï¿½ï¿½ï¿½Ñ¤Fï¿½ò¥»«ï¿½ï¿½Oï¿½C
+  ï¿½Pï¿½É¦sï¿½bï¿½oï¿½ï¿½Ø«ï¿½ï¿½Oï¿½`ï¿½`ï¿½|ï¿½yï¿½ï¿½ï¿½Ú­Ì¦bï¿½]ï¿½pï¿½Wï¿½nï¿½[ï¿½Wï¿½\ï¿½hï¿½Bï¿½~ï¿½ï¿½ï¿½{ï¿½ï¿½ï¿½Xï¿½A
+  ï¿½Ò¦pï¿½bï¿½ï¿½ï¿½Æ¦rï¿½Bï¿½ï¿½É¡Aï¿½Ï¥ï¿½ int ï¿½ï¿½ double ï¿½ï¿½ï¿½Oï¿½Ó³Bï¿½zï¿½A
+  ï¿½ï¿½ï¿½Oï¿½nï¿½Nï¿½Æ¦rï¿½sï¿½Jï¿½eï¿½ï¿½ï¿½É¡Aï¿½ï¿½ï¿½ï¿½ï¿½nï¿½Nï¿½ï¿½ï¿½à´«ï¿½ï¿½ Integer ï¿½ï¿½ Double ï¿½ï¿½ï¿½Oï¿½A
+  ï¿½~ï¿½ï¿½Ï¥ï¿½ add(new Integer(i))ï¿½A
+  ï¿½bï¿½Ï¥Î®eï¿½ï¿½ï¿½Î¦hï¿½ï¿½ï¿½Bï¿½zï¿½É±`ï¿½`ï¿½nï¿½hï¿½@ï¿½Dï¿½à«¬ï¿½ï¿½ï¿½ï¿½C 
+  Java 1.5 ï¿½ï¿½ï¿½Aï¿½wï¿½gï¿½Wï¿½[ï¿½Fï¿½oï¿½è­±ï¿½ï¿½ï¿½Bï¿½zï¿½A
+  ï¿½Ù¤ï¿½ï¿½ï¿½ Autoboxing ï¿½M Auto-unboxingï¿½A
+  ï¿½sÄ¶ï¿½ï¿½ï¿½|ï¿½Û°ï¿½ï¿½ï¿½ï¿½Ú­Ì¦b int ï¿½M Integer ï¿½ï¿½ï¿½ï¿½ï¿½à´«ï¿½C
  
 
-ª`·N:  
-  ¡°switch°£¤Fbyte,short,int©Mchar¤§¥~¡A¥ç¥i±µ¨üWrapperª«¥ó
-  ¡°­Y¶Ç¤@int®É¡A´M§ä©Ò»ÝOverloading¤èªk®É¥ý§äint¡A¨ä¦¸WrapperÃþ§O¡A¦A§ävarargs(«á­z)
-  ¡°¦ý¬OÀ³¸Ó¤p¤ß
+ï¿½`ï¿½N:  
+  ï¿½ï¿½switchï¿½ï¿½ï¿½Fbyte,short,intï¿½Mcharï¿½ï¿½ï¿½~ï¿½Aï¿½ï¿½iï¿½ï¿½ï¿½ï¿½Wrapperï¿½ï¿½ï¿½ï¿½
+  ï¿½ï¿½ï¿½Yï¿½Ç¤@intï¿½É¡Aï¿½Mï¿½ï¿½Ò»ï¿½Overloadingï¿½ï¿½kï¿½É¥ï¿½ï¿½ï¿½intï¿½Aï¿½ä¦¸Wrapperï¿½ï¿½ï¿½Oï¿½Aï¿½Aï¿½ï¿½varargs(ï¿½ï¿½z)
+  ï¿½ï¿½ï¿½ï¿½ï¿½Oï¿½ï¿½ï¿½Ó¤pï¿½ï¿½
       Integer xx = null;
       int yy = xx;
-    ³oºØµ{¦¡½X  
+    ï¿½oï¿½Øµ{ï¿½ï¿½ï¿½X  
 
 /*
-   ¡°1.©³¤U¬O¤@­ÓÂ²³æ¨Ò¤l¡G 
+   ï¿½ï¿½1.ï¿½ï¿½ï¿½Uï¿½Oï¿½@ï¿½ï¿½Â²ï¿½ï¿½Ò¤lï¿½G 
 */
 
 public class Autoboxing1 {
@@ -35,7 +35,7 @@ public class Autoboxing1 {
   public static void main(String[] args) {
 	  Integer i1 = 1; //boxing
 	  int i2 = i1;    //unboxing
-		
+		sdfsadf
 	  int sum1 = i1 + i2;
 	  Integer sum2 = i1 + i2;
 	  System.out.println(sum1);
